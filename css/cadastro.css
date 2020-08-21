@@ -1,0 +1,57 @@
+#coluna1 {
+    background: -moz-linear-gradient(right, #CCCCCC, #f8f9fa);
+    background: -webkit-gradient(linear, left top, right top, from(#A4A4A4), to(#f8f9fa));
+}
+
+#coluna2 {
+    background-color:  #f8f9fa;
+    text-align: justify;
+}
+
+#coluna3 {
+    background: -moz-linear-gradient(left, #CCCCCC, #f8f9fa);
+    background: -webkit-gradient(linear, left top, right top, from(#f8f9fa), to(#A4A4A4));
+}
+
+.titulo-topo h1 a {
+    font-family: inherit;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.sombra-menu {
+    box-shadow: 2px 2px 2px 2px gray;
+}
+
+.imagem-topo a img {
+    margin-left: 50%;
+    width: 35%;
+    height: 35%;
+    margin-top: 5%;
+    margin-bottom: 0%;
+}
+
+.titulo-fieldset1 {
+    width: 60%;
+    font-family: inherit;
+    font-weight: bold;
+}
+
+.corpo-fieldset1 {
+    margin: auto;
+    font-family: 20px;
+    font-family: inherit; /** bordas arredondadas em todos os navegadores **/
+    background: #E6E6E6; /** Espessura e cor da borda, opcoes de borda: solid, dashed, none groove **/
+    border: 1px solid #E6E6E6; /** Largura do fieldset **/
+    width: 60%;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+
+.legend-corpo {
+    box-shadow: 2px 2px 2px 2px gray;
+    background-color: #E6E6E6;
+    width: 50%;
+    font-family: inherit;
+    font-weight: bold;
+}

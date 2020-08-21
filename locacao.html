@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>SAE - Locação</title>
+        <link rel="shortcut icon" href="/img/logotipo_SAE.jpg" type="image/x-icon" />
+        <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/cadastro.css">
+        <script src="js/bootstrap.js"></script>
+        <script src="js/senha.js"></script>
+    </head>
+    <body>
+        <nav>
+                <div class="row">
+                <div id="coluna1" class="col-md-2"><br>
+                </div>
+                <div id="coluna2" class="col-md-8">
+                    <br>
+                    <nav class="navbar navbar-light bg-light">
+                        <table>
+                              <tr>
+                                <td class="titulo-topo"><h1><a href="/locacao.html">SAE - Locação</a></h1></td>
+                              </tr>
+                        </table>
+                    </nav>
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light sombra-menu">
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                          <li class="nav-item">
+                            <a class="nav-link" href="/cadastro.html">Cadastro do Funcionário</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="/locacao.html">Locação</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </nav>
+                            <center>
+                                <hr>
+                                <fieldset class="corpo-fieldset1">
+                                    <form name="form2" action="/add-locacao" method="POST">
+                                        <table>
+                                        <br>
+                                            <tr>
+                                                <td>
+                                                    <center>
+                                                    <label>Tipo do Equipamento: </label>
+                                                    <input type="text" name="tipoEquip" id="tipoEquip" size="30px" placeholder="Digite qual o tipo do equipamento!" required><br>
+                                                    <hr>
+                                                    <label>Nome do Equipamento: </label>
+                                                    <input type="text" name="nomeEquip" id="nomeEquip" size="30px" placeholder="Digite o nome do Equipamento!" required><br>
+                                                    <hr>
+                                                    <label>Código do Patrimônio: </label>
+                                                    <input type="text" name="codPat" id="codPat" size="20px" placeholder="Digite um código Válido!" required><br>
+                                                    <hr>
+                                                    <label>Nome do Funcionário: </label>
+                                                    <input type="text" name="nomeFun" id="nomeFun" size="20px" placeholder="Digite seu nome!" required><br>
+                                                    <hr>
+                                                    <label>Data e hora local: </label>
+                                                    <input type="datetime-local" name="data_hora" id="data_hora" size="20px" required><br>
+                                                    <hr>
+                                                    <label>Matrícula do Funcionário: </label>
+                                                    <input type="text" name="matriculaFun" id="matriculaFun" size="20px" placeholder="Digite a Matrícula!" required><br>
+                                                    <hr>
+                                                    <center>
+                                                    <input type="submit" value="Cadastrar">
+                                                    <input type="reset" value="Cancelar">
+                                                    </center>
+                                                    </center>
+                                                    <br>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </form>
+                                </fieldset>
+                                <hr>
+                            <center>
+                            <footer>
+                            <nav>
+                            <p>Jaraguá do Sul - SC | . Isidoro Pedri, 263 | Rio Molha | (47) 3372-9500</p> <small>Copyright © 2020 </small>
+                            </nav>
+                                <br>
+                                <br>
+                                <br>
+                            </footer>
+                            </center>
+                </div>
+                <div id="coluna3" class="col-md-2"><br>
+                </div>
+            </div>
+        </nav>
+    </body>
+</html>
